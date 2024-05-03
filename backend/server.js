@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors=require('cors');
 const app = express();
 const port = 4000;
+// Server will use port 4000 
 const userRoutes = require('./routes/user');
 const flightRoutes = require('./routes/flights');
 const bookingRoutes=require('./routes/booking');
