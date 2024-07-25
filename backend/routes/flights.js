@@ -16,5 +16,5 @@ router.post('/flights', FlightControllers.getFlightsBySourceAndDestination);
 
 router.post('/addflights', FlightControllers.addFlight);
 
-
+//exported the model
 module.exports = router;
