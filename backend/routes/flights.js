@@ -12,7 +12,7 @@ const FlightControllers = require('../controllers/flightController');
 
 router.post('/flights', FlightControllers.getFlightsBySourceAndDestination);
 
-// add a flight
+// add a flight by clicking on add
 
 router.post('/addflights', FlightControllers.addFlight);
 
